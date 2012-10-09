@@ -14,6 +14,17 @@ header h1 {
     text-align: center;
 }
 
+#refer {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-position: 10px;
+    background-image: url(UU.png);
+    background-size: 300px;
+    opacity: 0.3;
+    z-index: 3;
+}
+
 #canvas {
     background: #fff;
     border: 1px solid #eeeeef;
@@ -49,14 +60,14 @@ header h1 {
 }
 
 #ear-r {
-    top: -5px;
-    left: 110px;
-    width: 20px;
+    top: -12px;
+    left: 106px;
+    width: 21px;
     height: 60px;
     -webkit-transform: skew(15deg, -55deg);
     border-top: 2px solid #000;
     border-right: 2px solid #000;
-    -webkit-border-top-right-radius: 10px 20px;
+    -webkit-border-top-right-radius: 14px 30px;
 }
 
 #ear-r {
