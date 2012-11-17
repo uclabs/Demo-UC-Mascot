@@ -226,7 +226,7 @@
         brown.bezierCurveTo(292, 104, 316, 148, 316, 156);
         brown.bezierCurveTo(317, 183, 302, 181, 307, 220);
         brown.bezierCurveTo(310, 234, 315, 244, 324, 254);
-        brown.bezierCurveTo(321, 267, 317, 274, 311, 274);
+        brown.bezierCurveTo(322, 268, 318, 277, 312, 276);
         brown.bezierCurveTo(297, 274, 304, 252, 281, 156);
         brown.bezierCurveTo(272, 114, 249, 91, 214, 86);
 		brown.moveTo(478, 74);
@@ -382,9 +382,12 @@
         white.bezierCurveTo(384, 80, 394, 75, 405, 78);
         white.bezierCurveTo(405, 78, 402, 81, 399, 94);
         white.bezierCurveTo(393, 88, 385, 85, 379, 84);
-		white.arc(113, 424, 7, 0, Math.PI*2, true);
-		white.arc(500, 424, 7, 0, Math.PI*2, true);
-		//x，y代表圆心坐标，z是圆的半径。a代表圆周肇端地位。0 PI就是肇端地位了，沿顺时针路线，分别是0.5 PI（正下方），1 PI和1.5 PI（正上方），这个为我们今后画饼图供给了扇形局限的根据。 第五个参数是弧长Math.PI*2就是全部圆了，Math.PI是半圆。第六个参数是个布尔值，就是断定是顺时针还是逆时针，这里false是顺时针。】
+		white.moveTo(115, 419);
+        white.bezierCurveTo(123, 418, 123, 431, 114, 431);
+        white.bezierCurveTo(105, 431, 106, 418, 115, 419);
+		white.moveTo(499, 419);
+        white.bezierCurveTo(509, 418, 507, 431, 499, 431);
+        white.bezierCurveTo(491, 431, 490, 418, 499, 419);
 		white.moveTo(175, 376);
         white.bezierCurveTo(180, 366, 188, 350, 217, 350);
         white.bezierCurveTo(249, 359, 248, 391, 248, 407);
